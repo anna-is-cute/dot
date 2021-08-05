@@ -64,7 +64,7 @@ __box_init() {
 
   if [[ ! -d ~/.dot ]]; then
     echo 'downloading dot files...'
-    git clone https://github.com/jkcclemens/dot.git ~/.dot
+    git clone https://github.com/ascclemens/dot.git ~/.dot
   fi
 
   echo 'moving to tempdir...'

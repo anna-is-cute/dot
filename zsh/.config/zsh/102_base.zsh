@@ -7,7 +7,7 @@ zstyle ':completion:*' format ' Completing %d'
 zstyle ':completion:*' group-name ''
 zstyle ':completion:*' matcher-list '' 'r:|[._-]=* r:|=*'
 zstyle ':completion:*' max-errors 1
-zstyle :compinstall filename '/home/kyle/.zshrc'
+zstyle :compinstall filename "$HOME/.zshrc"
 
 autoload -U colors && colors
 autoload -Uz compinit

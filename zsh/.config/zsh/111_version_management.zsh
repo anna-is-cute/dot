@@ -2,18 +2,16 @@
 # Version management #
 ######################
 
-if [[ -d ~/.pyenv ]]; then
-  export PATH=~/.pyenv/bin:$PATH
-  eval "$(pyenv init -)"
+if [[ ! -d "$HOME/.asdf" ]]; then
+  git clone https://github.com/asdf-vm/asdf.git "$HOME/.asdf"
+  git -C "$HOME/.asdf" checkout "$(git -C "$HOME/.asdf" describe --abbrev=0 --tags)"
 fi
 
-if [[ -d ~/.rbenv ]]; then
-  export PATH=$HOME/.rbenv/bin:$PATH
-  eval "$(rbenv init -)"
+if [[ -d "$HOME/.asdf" ]]; then
+  fpath=($fpath "$HOME/.asdf/completions/")
+  source "$HOME/.asdf/asdf.sh"
 fi
 
-[[ -x $(command -v jenv) ]] && eval "$(jenv init -)"
-[[ -x $(command -v rbenv) ]] && eval "$(rbenv init -)"
 [[ -x $(command -v thefuck) ]] && eval "$(thefuck --alias)"
 
 [[ -x /home/linuxbrew/.linuxbrew/bin/brew ]] && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

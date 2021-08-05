@@ -4,8 +4,7 @@
       "paths": [
         {"contains": ".local"},
         {"contains": ".cargo"},
-        {"contains": ".rvm"},
-        {"contains": ".pyenv"},
+        {"contains": ".asdf"},
         {"default": true},
         {"exact": "/usr/local/bin"},
         {"exact": "/usr/local/sbin"},
@@ -17,7 +16,7 @@
         "path_component_length": -1
       }
     },
-    "must_exist": false,
+    "must_exist": true,
     "must_be_unique": true,
     "must_be_absolute": false
   }
