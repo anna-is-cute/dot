@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # == Simple note management ==
-# Author: Kyle Clemens (kyleclemens.com)
+# Author: Anna Clemens (annaclemens.io)
 #
 # This is a simple system for writing notes. Set $NOTES_PATH to where you want notes to be stored.
 # The function works on basic sh and should work on other shells without issue. Use `note -h` for
@@ -26,7 +26,7 @@ if [ ! -x "$(command -v note)" ]; then
 
     print_help() {
       echo 'note 0.2.0'
-      echo '  Author: Kyle Clemens (kyleclemens.com)'
+      echo '  Author: Anna Clemens (annaclemens.io)'
       echo
       echo 'note -p'
       echo '  Display $NOTES_PATH.'
