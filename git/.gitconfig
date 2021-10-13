@@ -1,5 +1,6 @@
 [core]
 	excludesfile = ~/.config/git/ignore
+	autocrlf = input
 [user]
 	name = Anna Clemens
 	email = git@annaclemens.io
