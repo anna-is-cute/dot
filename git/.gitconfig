@@ -2,9 +2,9 @@
 	excludesfile = ~/.config/git/ignore
 	autocrlf = input
 [user]
-	name = Anna Clemens
-	email = git@annaclemens.io
-	signingkey = 7AFEC6C933D82E9DE3762A8BB5260624B47A890B
+	name = Anna
+	email = git@anna.lgbt
+	signingkey = 4BFBF44FD7CD376B611FA641D0943384CD9F87D1
 [commit]
 	gpgsign = true
 [filter "lfs"]
