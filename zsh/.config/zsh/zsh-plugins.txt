@@ -1,0 +1,25 @@
+# now, configure and run compinit to initialize completions
+belak/zsh-utils path:completion
+# add even more completions
+zsh-users/zsh-completions
+
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+ohmyzsh/ohmyzsh path:plugins/colorize
+ohmyzsh/ohmyzsh path:plugins/cp
+ohmyzsh/ohmyzsh path:plugins/docker
+ohmyzsh/ohmyzsh path:plugins/docker-compose
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/git-extras
+ohmyzsh/ohmyzsh path:plugins/mosh
+peterhurford/up.zsh
+ohmyzsh/ohmyzsh path:plugins/pip
+ohmyzsh/ohmyzsh path:plugins/python
+rupa/z
+ohmyzsh/ohmyzsh path:plugins/tmuxinator
+zsh-users/zsh-completions
+# zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zdharma-continuum/fast-syntax-highlighting kind:defer
+zsh-users/zsh-history-substring-search
+belak/zsh-utils path:completion

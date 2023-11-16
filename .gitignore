@@ -1,5 +1,16 @@
-*.zwc
-zsh/.config/zsh/antigen.zsh
+# zsh
+zsh/**/*.zwc
+zsh/.config/zsh/secrets
+zsh/.config/zsh/antidote
+zsh/.config/zsh/zsh-plugins.zsh.static
+
+# emacs
 emacs/.config/emacs/elpa/
 emacs/.config/emacs/transient/
-emacs/.config/emacs/auto-save-list/
+emacs/.config/emacs/auto-save-list
+emacs/.config/emacs/.lsp-session-v1
+emacs/.config/emacs/.org-id-locations
+emacs/.config/emacs/eln-cache/
+emacs/.config/emacs/ido.last
+emacs/.config/emacs/org-roam.db
+emacs/.config/emacs/tramp
