@@ -15,7 +15,6 @@ ohmyzsh/ohmyzsh path:plugins/mosh
 peterhurford/up.zsh
 ohmyzsh/ohmyzsh path:plugins/pip
 ohmyzsh/ohmyzsh path:plugins/python
-rupa/z
 ohmyzsh/ohmyzsh path:plugins/tmuxinator
 zsh-users/zsh-completions
 # zsh-users/zsh-syntax-highlighting
