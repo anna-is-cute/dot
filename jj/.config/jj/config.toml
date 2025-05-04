@@ -1,0 +1,11 @@
+[user]
+name = "Anna"
+email = "git@anna.lgbt"
+
+[ui]
+default-command = "log"
+
+[signing]
+behavior = "own"
+backend = "gpg"
+key = "4BFBF44FD7CD376B611FA641D0943384CD9F87D1"
