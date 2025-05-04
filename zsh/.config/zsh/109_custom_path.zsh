@@ -13,3 +13,10 @@ if [[ -d ~/.bun/bin ]]; then
 fi
 
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin
+
+# add pnpm
+export PNPM_HOME="$HOME/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
